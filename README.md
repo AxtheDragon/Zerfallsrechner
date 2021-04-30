@@ -1,4 +1,4 @@
 # Zerfallsrechner
 Berechnung von radioaktiven Zerfallsketten in Python3
 
-Calcutaion of radiactive decay chains in python3
+Calculation of radiactive decay chains in python3
