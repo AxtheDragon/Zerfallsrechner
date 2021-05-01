@@ -8,7 +8,7 @@ def iterateMix(mix):
     newNuclides = { }
     for key in mix.keys():
         daughter = nucData.daughters[key]
-        if nucData.daughters[key] in mix:
+        if daughter in mix:
             print(daughter, "ist schon dabei")
         else:
             newNuclides[daughter] = 0
@@ -17,5 +17,5 @@ def iterateMix(mix):
     return mix
 
 
-startMix = {"U-235" : 100, "Cs-137" : 50, "Th-231" : 30}
+startMix = {nucData.U235 : 100, nucData.Cs137 : 50, nucData.Th231 : 30}
 
