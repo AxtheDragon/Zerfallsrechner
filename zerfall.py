@@ -1,7 +1,8 @@
-import nuclide_Data
+import nucData
+import nucMix
+from nucMix import printMix
 
 print("Berechnen von Zerfallsketten")
-
 print("---- input Mix ----")
 printMix(nucMix.startMix)
 
