@@ -1,4 +1,6 @@
-import nuclide_Data
+import nucData
+import nucMix
+from nucMix import printMix
 
 print("---- input Mix ----")
 printMix(nucMix.startMix)
