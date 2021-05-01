@@ -5,6 +5,9 @@ class nuclide:
         self.name = name
         self.hwz = hwz #Die HWZ soll in Jahren gespeichert werden
 
+    def __str__(self):
+        return self.name
+
     #Methoden zur ausgabe der HWZ in verschiedenen Formaten
     def hwz_days(self):
         return self.hwz*365
