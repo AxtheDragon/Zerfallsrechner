@@ -9,13 +9,10 @@ class nuclide:
         return self.name
 
     def __eq__(self,other):
-        if self.name == other.name:
-            return True
-        else:
-            return False
+        return self.name == other.name
 
     def __hash__(self):
-        return hash((self.name))
+        return hash(self.name)
 
     #Methoden zur ausgabe der HWZ in verschiedenen Formaten
     def hwz_days(self):
