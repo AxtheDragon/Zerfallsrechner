@@ -18,4 +18,4 @@ def iterateMix(mix):
 
 
 startMix = {nucData.U235 : 100, nucData.Cs137 : 50, nucData.Th231 : 30}
-
+UranMix = {nucData.U238 : 100}
